@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+<Link
+rel="stylesheet"
+Integrity="sha384-LN+7fdVzj6u52u30Kp6M/trl1BMCMKTYK833zpbD+pXdCLuTusPj697FH
+crossorigin="anonymous"
+/>
+<title>Мій акаунт</title>
+</head>
+
+<body>
+<div id="app">
+<h1 v-if="user">Привіт {{user}}</h1>
+<hl v-else="!user">Привіт гість</h1>
+<a href="/index.html">Вихід</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.15/vue.global.min.js"></script>
+<script src="user.js"></script>
+</body>
+</html>
